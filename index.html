@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+       <h1 class="logo">ADVENTURE</h1>
+     <ul class="list">
+       <li  class="active" > <a href="#">HOME</a></li>
+       <li><a href="#" >TOUR</a></li>
+       <li><a href="#">ABOUT</a></li>
+       <li><a href="#"> SERVICS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+     </ul>
+     <img alt="" src="https://cdn0.iconfinder.com/data/icons/heroicons-ui/24/icon-menu-512.png" class="mnu-btn">
+    </nav>
+    <header>
+         <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a class="learn" >learn more</a>           
+        </div>
+        
+        
+    </header>
+    <section>
+         <div class="title">
+            <h3>upcoming event</h3>
+            
+            </div>
+         <div class="event">   
+          <div class="left">
+            <img class="ima-ev" src="everest.jpg">
+            <h4>everest camp track</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facere aliquid molestiae vel ut ad?</p>
+            <a class="learn" >learn more</a>           
+          </div>
+          <div class="left">
+            <img src="holiday tour img.jpg">
+            <h4>holiday tour</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facere aliquid molestiae vel ut ad?</p>
+            <a class="learn" >learn more</a>           
+          </div>
+        </div>
+    </section>
+    <section class="explore">
+      <div class="center">
+      <h2>expolre the world</h2>
+      <div class="line"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam harum, animi tempore modi quibusdam neque repellendus aut illum tenetur aspernatur nemo corporis, delectus dolore laudantium placeat maxime quae eos enim.
+      </p>
+      <a class="learn" >learn more</a> 
+      </div>
+    </section>
+    <section class="tour">
+      <div class="tour-h">
+        <div class="t-img">
+        <h1>
+          upcoming tours & destination
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia dolores quasi excepturi possimus dignissimos! Inventore a fugiat tempore saepe, sit, officia aspernatur beatae enim doloribus perferendis cupiditate sunt! Dicta suscipit neque libero blanditiis veritatis consequatur.
+        </p>
+        <a class="learn" >learn more</a> 
+        </div>
+        <div class="t-img">
+        <div class="g-img">
+          <img src="https://i.pinimg.com/736x/5a/f6/05/5af605ec39d56d5284c16334dd5e03e0.jpg">
+          <img src="https://i.pinimg.com/originals/f3/1a/6f/f31a6fa3504bab973e6f65c35e1eed98.jpg">
+          <img src="https://www.holidify.com/images/cmsuploads/compressed/Machu_Picchu_early_morning_20181214131409.JPG">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tourist-with-luggage-trolley-walking-in-venice-royalty-free-image-969480856-1557506168.jpg?crop=1.00xw:0.752xh;0,0.154xh&resize=1200:*">
+        </div>
+        </div>
+      </div>
+    </section>
+<script>
+    const menubtn = document.querySelector('.mnu-btn')
+    const navlinks = document.querySelector('.list')
+    menubtn.addEventListener('click',()=>{
+        navlinks.classList.toggle("mobile-menu")
+    })
+
+</script>
+</body>
+</html>
